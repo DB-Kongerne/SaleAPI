@@ -31,10 +31,44 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://99dbceb5-a86f-4335-b85a-9b9cd64fe344.mock.pstmn.io/Customers",
+					"raw": "https://efeb7b94-7f4a-4561-911a-3de57dd3395c.mock.pstmn.io/Customers",
 					"protocol": "https",
 					"host": [
-						"99dbceb5-a86f-4335-b85a-9b9cd64fe344",
+						"efeb7b94-7f4a-4561-911a-3de57dd3395c",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"Customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postcust",
+			"id": "5d9095c9-28f4-4be6-83aa-3ed0ca8cac5a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"customerId\": 789,\r\n        \"name\": \"Jnjjjj\"\r\n    },\r\n    {\r\n        \"customerId\": 90,\r\n        \"name\": \"Jane Sjjjjmith\"\r\n    },\r\n    {\r\n        \"customerId\": 89,\r\n        \"name\": \"Hanna njjihiuNielsen\"\r\n    },\r\n    {\r\n        \"customerId\": 76,\r\n        \"name\": \"Siljsncnsen\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://efeb7b94-7f4a-4561-911a-3de57dd3395c.mock.pstmn.io/Customers",
+					"protocol": "https",
+					"host": [
+						"efeb7b94-7f4a-4561-911a-3de57dd3395c",
 						"mock",
 						"pstmn",
 						"io"
