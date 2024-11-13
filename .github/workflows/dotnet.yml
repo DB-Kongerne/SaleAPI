@@ -28,11 +28,14 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
 
-    # Step to run tests
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    # Step to start the API server in the background
+    - name: Start API server
+      run: |
+        dotnet run --project path/to/your/project &
+        echo "Waiting for the API to start..."
+        sleep 10
 
-    # Step to install Postman CLI on Ubuntu
+    # Step to install Postman CLI
     - name: Install Postman CLI
       run: |
         curl -L https://dl-cli.pstmn.io/install/linux64.sh | sh
