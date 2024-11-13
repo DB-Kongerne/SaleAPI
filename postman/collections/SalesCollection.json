@@ -31,12 +31,14 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5039/Customers",
-					"protocol": "http",
+					"raw": "https://acc777ca-7d7e-42a4-adda-3d6f51890e9b.mock.pstmn.io/Customers",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"acc777ca-7d7e-42a4-adda-3d6f51890e9b",
+						"mock",
+						"pstmn",
+						"io"
 					],
-					"port": "5039",
 					"path": [
 						"Customers"
 					]
