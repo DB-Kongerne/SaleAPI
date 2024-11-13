@@ -12,6 +12,9 @@ builder.Services.AddSingleton<ICustomerRepository, CustomerRepository>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Set the application to listen on all network interfaces on port 5039
+builder.WebHost.UseUrls("http://0.0.0.0:5039");
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
