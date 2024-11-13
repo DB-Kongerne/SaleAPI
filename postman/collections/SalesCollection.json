@@ -8,6 +8,21 @@
 	"item": [
 		{
 			"name": "get all customers",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "8630db17-8140-4996-ab5e-5091dbcaec2b",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
 			"id": "43f71e46-36d2-48ae-8762-c2352ef15534",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -16,7 +31,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "{{Saleurl}}/Customers",
+					"host": [
+						"{{Saleurl}}"
+					],
+					"path": [
+						"Customers"
+					]
 				}
 			},
 			"response": []
