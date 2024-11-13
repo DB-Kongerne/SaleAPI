@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "get all customers",
+			"name": "GetAllCustomers",
 			"event": [
 				{
 					"listen": "test",
