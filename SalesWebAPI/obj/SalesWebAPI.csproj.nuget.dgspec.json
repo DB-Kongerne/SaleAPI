@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\moal\\Desktop\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj": {}
+    "C:\\Users\\cbjoe\\OneDrive\\Desktop\\Sem4\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\moal\\Desktop\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj": {
+    "C:\\Users\\cbjoe\\OneDrive\\Desktop\\Sem4\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\moal\\Desktop\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\cbjoe\\OneDrive\\Desktop\\Sem4\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj",
         "projectName": "SalesWebAPI",
-        "projectPath": "C:\\Users\\moal\\Desktop\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj",
-        "packagesPath": "C:\\Users\\moal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\moal\\Desktop\\SalesWebAPI\\SalesWebAPI\\obj\\",
+        "projectPath": "C:\\Users\\cbjoe\\OneDrive\\Desktop\\Sem4\\SalesWebAPI\\SalesWebAPI\\SalesWebAPI.csproj",
+        "packagesPath": "C:\\Users\\cbjoe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cbjoe\\OneDrive\\Desktop\\Sem4\\SalesWebAPI\\SalesWebAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\moal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\cbjoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -74,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
