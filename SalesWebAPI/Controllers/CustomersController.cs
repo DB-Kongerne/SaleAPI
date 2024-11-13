@@ -58,6 +58,24 @@ namespace SalesWebAPI.Controllers
             _repository.Remove(id);
             return NoContent();
         }
+
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Customer value)
+        { 
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            if(value == null) { throw new ArgumentNullException("required value"); }
+            var existingCustomer = _repository.GetById(id);
+            if (existingCustomer == null)
+            {
+                return NotFound();
+            }
+            existingCustomer.Name = value.Name;
+            _repository.Update(existingCustomer);
+            return NoContent();
+        }
     }
 
 
