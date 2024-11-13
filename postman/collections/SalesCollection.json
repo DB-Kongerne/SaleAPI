@@ -1,0 +1,25 @@
+{
+	"info": {
+		"_postman_id": "fffe9d92-2943-4b3d-b4ae-ad3e9ac562e9",
+		"name": "SalesCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "25876449-fffe9d92-2943-4b3d-b4ae-ad3e9ac562e9"
+	},
+	"item": [
+		{
+			"name": "get all customers",
+			"id": "43f71e46-36d2-48ae-8762-c2352ef15534",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
